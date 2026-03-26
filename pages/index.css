@@ -154,7 +154,7 @@
   margin-left: 80px;
   max-width: 438px;
 }
-.recipes__videos-container {
+.recipes__videos {
   display: flex;
   justify-content: center;
   align-items: center;
