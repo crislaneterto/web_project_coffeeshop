@@ -197,8 +197,7 @@
 .reservation__title {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px auto 80px;
   text-align: center;
   font-family: "Inter";
   font-style: normal;
@@ -252,7 +251,7 @@
   max-width: 385px;
   margin: 32px;
 }
-.form__label--checkbox {
+.form__label_checkbox {
   display: flex;
   align-items: center;
   gap: 12px;
