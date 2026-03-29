@@ -1,0 +1,29 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 120px 0;
+}
+
+.reservation__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto 120px;
+}
