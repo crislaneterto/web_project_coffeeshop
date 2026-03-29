@@ -13,7 +13,6 @@
       content="cafeteria, café artesanal, coffeeshop, coffee house, expresso"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -153,7 +152,12 @@
               </div>
               <div class="form__group">
                 <label class="form__label" for="date">Data e hora: *</label>
-                <input type="date" class="form__input" required id="date" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  required
+                  id="date"
+                />
               </div>
               <div class="form__group">
                 <label class="form__label" for="email">Seu e-mail: *</label>
